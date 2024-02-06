@@ -1,0 +1,142 @@
+
+.nav-header {
+    background-color: var(--primary-color);
+    /* height: 100vh; */
+    width: 250px !important;
+    justify-content: space-between;
+    position: relative;
+}
+
+
+.navbar-brand  {
+    position: absolute;
+    top: -20px;
+    left: 10px;
+}
+
+.navbar-collapse {
+    position: absolute;
+    top: 100px;
+    left: 20px;
+}
+
+.nav-header .navbar-brand div {
+    width: 200px;
+}
+
+.header-top-menu {
+    display: none;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    /* color: var(--main-color); */
+}
+
+.nav-header .nav-item {
+    margin-right: 40px;
+}
+
+.nav-header .nav-item:hover {
+    background-color: #F5DEB3;
+    border-radius: 52px;
+}
+
+/* basic-row-disnon */
+
+.basic-row-disnon {
+    width: 100vw;
+    height: 110px;
+    background-color: #007E94;
+    position: absolute;
+    display: none;
+}
+
+
+@media (max-width: 992px) {
+    .nav-header .nav-item {
+        margin: 0 10px;
+    }
+    .basic-row-disnon {
+        display: block;
+    }
+
+    .nav-header {
+        height: 110px;
+        z-index: 9;
+        position: relative;
+    }
+
+    .nav-header .navbar-brand {
+        position: absolute;
+        top: -10px;
+        left: 10px;
+    }
+
+    .nav-header .navbar-toggler {
+        position: absolute;
+        top: 38px;
+        left: 250px;
+    }
+
+    .header-top-menu {
+        display: block;
+        position: absolute;
+        top: 22px;
+        left: 250px;
+    }
+
+    .bi-x-lg {
+        color: #d31313;
+        font-weight: 700;
+    }
+
+
+    .nav-header .navbar-collapse {
+        width: 200px;
+        height: calc(100vh - 110px);
+        padding-bottom:  20px;
+        position: absolute;
+        top: 100px;
+        left: -200px;
+        background-color: #007E94;
+        transition: all 1s ease;
+    }
+
+    .nav-header .nav-item {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 720px) {
+    .nav-header {
+        height: 150px;
+    }
+
+    .basic-row-disnon {
+        height: 150px;
+    }
+
+    .nav-header .navbar-toggler {
+        top: 95px;
+        left: 20px;
+        z-index: 1;
+    }
+
+    .header-top-menu {
+        top: 80px;
+        left: 20px;
+        z-index: 1;
+    }
+
+    .nav-header .navbar-collapse {
+        top: 140px;
+        height: calc(100vh - 150px);
+    }
+}
+
+@media (max-width: 540px) {
+    .nav-header .navbar-toggler {
+        z-index: 99999999999999999;
+        left: 20px;
+    }
+}

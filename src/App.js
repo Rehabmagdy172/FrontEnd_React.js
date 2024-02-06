@@ -1,11 +1,14 @@
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import Test from './Test';
+import Dashboard from './components/Dashboard';
 
 function App() {
   return (
     <div className="App">
-      Welcome...
-      <Test/>
+      <Dashboard/>
+      <Routes>
+        <Route path='dashboard' element={<Dashboard/>}/>
+      </Routes>
     </div>
   );
 }

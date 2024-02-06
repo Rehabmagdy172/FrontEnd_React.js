@@ -1,0 +1,121 @@
+
+.basic-header {
+    height: 65px;
+    border-bottom: 1px rgba(0, 0, 0, 0.08) solid;
+}
+
+.basic-header-profile-prof {
+    width: 120px;
+    height: 40px;
+    background-color: #FBFBFB;
+    border-radius: 52px;
+    padding: 5px;
+    cursor: pointer;
+    margin: 0 10px ;
+}
+
+.basic-header-profile-prof img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.basic-header-profile-prof p {
+    margin: 0;
+    padding: 0 5px;
+    font-family: 'Fugaz One', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #292D32;
+}
+
+
+.basic-header-profile-search {
+    width: 110px;
+    height: 40px;
+    background-color: #FBFBFB;
+    border-radius: 52px;
+    padding: 1px 5px;
+}
+
+.basic-header-profile-search input {
+    width: 100%;
+    height: 35px;
+    padding: 3px 5px;
+    border-radius: 52px;
+    background-color: #FBFBFB;
+    border: none;
+}
+
+.basic-header-profile-search input:focus {
+    outline:0;
+}
+
+
+
+@media (max-width: 992px) {
+    .basic-header-profile {
+        position: absolute;
+        top: 35px;
+        right: 20px;
+        z-index: 99999999;
+    }
+    
+    .basic-header {
+        border: none;
+        height: 50px;
+    }
+
+    .basic-header h2 {
+        padding-left: 10px;
+        padding-top: 10px; 
+    }
+}
+
+
+@media (max-width: 770px) {
+    .basic-header-profile-prof .fa-i-cursor {
+        padding: 8px;
+    }
+}
+
+@media (max-width: 720px) {
+
+    .basic-header-profile {
+        top: 95px;
+        right: 10px;
+        z-index: 99;
+    }
+}
+
+@media (max-width: 540px) {
+
+    .basic-header-profile {
+        right: 0;
+    }
+
+    .basic-header-profile-prof {
+        width: 100px;
+        /* margin: 0; */
+    }
+
+    .basic-header-profile-prof .fa-i-cursor {
+        padding: 5px;
+    }
+
+    .basic-header-profile-search {
+        width: 90px;
+        padding: 0;
+        /* border-radius: 0; */
+    }
+    .basic-header-profile-search input {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+    }
+
+    .basic-header-profile-prof p {
+        margin: 0;
+        padding: 0 ;
+    }
+}
