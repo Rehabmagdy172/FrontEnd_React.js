@@ -1,17 +1,17 @@
 import React, { useState } from 'react'
-import untitled from '../images/Untitled design.jpg'
+import untitled from '../../images/Untitled design.jpg'
 
-import book1Recently from '../images/Books/Book1(Recently).jpg'
-import book1Top from '../images/Books/Book1(Top).jpg'
-import book2Recently from '../images/Books/Book2(Recently).jpg'
-import book2Top from '../images/Books/Book2(Top).jpg'
-import book3Recently from '../images/Books/Book3(Recently).jpg'
-import book3Top from '../images/Books/Book3(Top).jpg'
-import book4Recently from '../images/Books/Book4(Recently).jpg'
-import book4Top from '../images/Books/Book4(Top).jpg'
+import book1Recently from '../../images/Books/Book1(Recently).jpg'
+import book1Top from '../../images/Books/Book1(Top).jpg'
+import book2Recently from '../../images/Books/Book2(Recently).jpg'
+import book2Top from '../../images/Books/Book2(Top).jpg'
+import book3Recently from '../../images/Books/Book3(Recently).jpg'
+import book3Top from '../../images/Books/Book3(Top).jpg'
+import book4Recently from '../../images/Books/Book4(Recently).jpg'
+import book4Top from '../../images/Books/Book4(Top).jpg'
 import './dashboard.css'
-import Navbar from './basic/Navbar'
-import Basic from './basic/Basic'
+import Navbar from '../basic/Navbar'
+import Basic from '../basic/Basic'
 
 export default function Dashboard() {
 
@@ -24,7 +24,7 @@ export default function Dashboard() {
             <Navbar/>
             
             <div className="datails">
-                <div className="row flex-column">
+                <div className="d-flex flex-column">
 
                     <Basic component={component}/>
 

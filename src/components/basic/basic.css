@@ -1,4 +1,14 @@
 
+.basic-row {
+    position: relative;
+    background-color: #F5DEB3;
+}
+
+.basic-row .datails {
+    background-color: #F5DEB3;
+    width: calc(100vw - 270px);
+}
+
 .basic-header {
     height: 65px;
     border-bottom: 1px rgba(0, 0, 0, 0.08) solid;
@@ -54,6 +64,14 @@
 
 
 @media (max-width: 992px) {
+    .basic-row {
+        flex-direction: column;
+    }
+
+    .basic-row .datails {
+        width: 100%;
+    }
+
     .basic-header-profile {
         position: absolute;
         top: 35px;

@@ -2,6 +2,7 @@
 .nav-header {
     background-color: var(--primary-color);
     /* height: 100vh; */
+    min-height: 100vh;
     width: 250px !important;
     justify-content: space-between;
     position: relative;
@@ -64,6 +65,7 @@
         height: 110px;
         z-index: 9;
         position: relative;
+        min-height: 10vh;
     }
 
     .nav-header .navbar-brand {
