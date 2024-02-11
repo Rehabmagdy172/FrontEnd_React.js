@@ -1,0 +1,129 @@
+
+.addbook-menu {
+    background-color: var(--main-color);
+    border: 6px solid black;
+    border-radius: 13px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.addbook {
+    /* height: 35px; */
+    height: 45px;
+    border-bottom: 1px rgba(0, 0, 0, 0.08) solid;
+    padding: 0 10px;
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3;
+    word-wrap: break-word;
+}
+
+
+.date-name {
+    width: 30%;
+    padding: 0 10px;
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3;
+    word-wrap: break-word;
+}
+
+.date-name p {
+    margin-bottom: 0;
+}
+
+.date-input {
+    width: 65%;
+    display: flex;
+    justify-content: center;
+}
+
+.date-input .img-upload input {
+    background-color: var(--main-color);
+}
+
+.uploadimage-img {
+    width: 180px;
+    height: 180px;
+}
+
+.uploadimage-img img {
+    width: 100%;
+    height: 100%;
+    
+}
+
+input {
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    background-color: #F5DEB3 ;
+    border: none;
+}
+
+.addbook-button {
+    width: 93%;
+    display: flex;
+    justify-content: end;
+}
+
+.addbook-button .btn {
+    width: 135px;
+    height: 40px;
+    padding: 0;
+    border-radius: 13px;
+    color: white !important;
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3.5;
+    word-wrap: break-word;
+}
+
+.addbook-button-1 {
+    background-color: var(--primary-color) !important;
+    margin-right: 10px;
+}
+
+.addbook-button-1:hover {
+    background-color: orange !important;
+    color: black !important;
+}
+
+.addbook-button-2 {
+    background-color: rgb(155, 152, 152) !important;
+    margin-left: 10px;
+}
+
+.addbook-button-2:hover {
+    background-color: rgb(218, 36, 36) !important;
+    color: black !important;
+}
+
+
+
+
+@media (max-width: 720px) {
+    .date-name {
+        width: 40%;
+    }
+
+    .date-input {
+        width: 55%;
+    }
+}
+
+@media (max-width: 520px) {
+    .date-name {
+        width: 47%;
+    }
+
+    .date-input {
+        width: 50%;
+    }
+}

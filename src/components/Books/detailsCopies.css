@@ -1,0 +1,298 @@
+
+.detailscopies-menu {
+    background-color: var(--main-color);
+    /* height: 50vh; */
+    border: 6px solid black;
+    border-radius: 13px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.detailsbook,
+.copiesbook {
+    background-color: var(--main-color);
+    /* height: 25vh; */
+    border: 6px solid black;
+    border-radius: 13px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.datails-icon-copiesonly,
+.copiesbook {
+    display: none;
+}
+.datails-icon-copiesonly {
+    display: none;
+}
+
+.detailscopies-menu-img {
+    width: 16%;
+    height: 250px;
+}
+
+.detailscopies-menu-img img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.detailscopies-menu-datails {
+    width: 84%;
+}
+
+.datails-icon-copiesonly {
+    margin-top: 40px;
+    /* display: flex; */
+    justify-content: end;
+}
+
+.detailscopies-datails-des div h5 {
+    color: #581212;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    letter-spacing: 1.5px;
+}
+
+.detailscopies-datails-des div p {
+    color: rgba(93.06, 77.16, 77.16, 0.83);
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.detailscopies-Status {
+    background-color: var(--primary-color) !important;
+    height: 25px;
+    margin: 0;
+    margin-left: 30px;
+    padding: 0 5px ;
+    border-radius: 13px;
+    color: rgb(245, 240, 240);
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+}
+
+.datails-icon-date {
+    border: 2px solid rgba(0, 0, 0, 0.8) ;
+    padding: 10px;
+}
+
+.datails-icon-copies {
+    width: 120px;
+    border: 2px solid rgba(0, 0, 0, 0.8) ;
+    padding: 10px;
+}
+
+.datails-icon-date-img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.datails-icon-copies h5 ,
+.datails-icon-date h5 {
+    padding-left: 10px;
+    color: #581212;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    letter-spacing: 1.5px;
+}
+
+.datails-icon-copies p ,
+.datails-icon-date p {
+    /* margin-top: 10px; */
+    height: 100%;
+    margin: 0;
+    color: rgba(93.06, 77.16, 77.16, 0.83);
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.copiesonly-edit {
+    position: absolute;
+    right: 60px;
+    top: 50px;
+    background-color: var(--primary-color) !important;
+    /* width: 135px; */
+    /* height: 35px; */
+    padding: 10px;
+    border-radius: 20px;
+    color: white !important;
+    font-size: 20px !important;
+    font-family: 'Roboto';
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3;
+    word-wrap: break-word;
+}
+
+.copiesonly-edit:hover {
+    outline: 0;
+    background-color: var(--primary-color) !important;
+    color: #010101 !important;
+}
+
+.detailscopies-menu-footer {
+    margin-top: 30px;
+}
+
+.detailscopies-menu-footer a {
+    text-decoration: none;
+    padding-bottom: 10px;
+    color: rgba(100, 77.16, 77.16, 0.83);
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2.1px;
+}
+
+.detailscopies-menu-footer a:hover {
+    color: var(--primary-color);
+    /* border-bottom: 5px solid var(--primary-color); */
+}
+
+.detailscopies-menu-footer a:focus {
+    color: var(--primary-color);
+    border-bottom: 5px solid var(--primary-color);
+}
+
+.detailscopies-footer-details {
+    margin-right: 20px;
+    
+}
+
+.detailsbook h3 {
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.detailsbook p {
+    margin: 0;
+    padding: 10px;
+    color: rgba(100, 77.16, 77.16, 0.83);
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+}
+
+
+/* copiesbook */
+
+.add-copiesbook {
+    height: 50px;
+}
+
+.add-copiesbook h2 {
+    color: black;
+    font-size: 24px;
+    font-family: 'Saira Stencil One';
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3.60;
+    word-wrap: break-word;
+}
+
+.add-copiesbook button {
+    background-color: var(--primary-color);
+    width: 135px;
+    height: 35px;
+    padding: 0;
+    border-radius: 13px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3;
+    word-wrap: break-word;
+}
+
+.add-copiesbook button:hover {
+    outline: 0;
+    background-color: var(--primary-color);
+    color: #010101;
+}
+
+
+.copiesbook-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+
+.copiesbook-grid-container {
+    border-top: 2px solid #010101;
+}
+
+.copiesbook-grid-container button {
+    background-color: var(--primary-color);
+    /* width: 135px; */
+    height: 35px;
+    text-align: center;
+    padding: 0 10px;
+    border-radius: 13px;
+    color: #010101;
+    font-size: 16px;
+    font-family: 'ae_Dimnah';
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3;
+    word-wrap: break-word;
+}
+
+.copiesbook-grid-container button:hover {
+    outline: 0;
+    background-color: orange;
+    /* transition: all 1s; */
+}
+
+
+.copiesbook-nav-menu {
+    color: black;
+    font-size: 20px;
+    font-family: 'ae_Dimnah';
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3;
+    word-wrap: break-word;
+}
+
+.copiesbook-grid-container-data {
+    cursor: pointer;
+    color: black;
+    font-size: 16px;
+    font-family: 'ae_Dimnah';
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2.80;
+    word-wrap: break-word;
+}
+
+
+@media (max-width: 1370px) {
+    /* .book-menu {
+        width: 100%;
+    } */
+    .copiesbook-menu-items {
+        width: 1100px;
+    }
+}
