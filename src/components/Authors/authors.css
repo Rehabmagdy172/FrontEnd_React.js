@@ -1,13 +1,12 @@
 
-.add-author {
-    /* width: 80%; */
+.add-authors {
     height: 60px;
     margin: 20px ;
     border-radius: 13px;
     background-color: #d9d9d9;
 }
 
-.add-author h2 {
+.add-authors h2 {
     color: black;
     font-size: 24px;
     font-family: 'Saira Stencil One';
@@ -17,7 +16,7 @@
     word-wrap: break-word;
 }
 
-.add-author button {
+.add-authors button {
     background-color: var(--primary-color);
     width: 135px;
     height: 35px;
@@ -32,27 +31,27 @@
     word-wrap: break-word;
 }
 
-.add-author button:hover {
+.add-authors button:hover {
     outline: 0;
     background-color: var(--primary-color);
 }
 
 
-.author-menu {
+.authors-menu {
     margin: 10px;
     border-radius: 13px;
 }
 
 
 
-.author-menu {
+.authors-menu {
     background-color: var(--main-color);
     border: 6px solid black;
     border-radius: 13px;
 }
 
 
-.menu-search-search {
+.authors-menu-search-search {
     width: 135px;
     height: 38px;
     background-color: #FBFBFB;
@@ -60,7 +59,7 @@
     padding: 1px 5px;
 }
 
-.menu-search-search input {
+.authors-menu-search-search input {
     width: 100%;
     height: 100%;
     padding: 3px 5px;
@@ -69,12 +68,12 @@
     border: none;
 }
 
-.menu-search-search input:focus {
+.authors-menu-search-search input:focus {
     outline:0;
 }
 
 
-.menu-search button {
+.authors-menu-search button {
     background-color: var(--primary-color);
     width: 135px;
     height: 35px;
@@ -90,19 +89,19 @@
     word-wrap: break-word;
 }
 
-.menu-search button:hover {
+.authors-menu-search button:hover {
     outline: 0;
     background-color: var(--primary-color);
     /* transition: all 1s; */
 }
 
-.grid-container button {
+.authors-grid-container button {
     background-color: var(--primary-color);
     width: 135px;
     height: 35px;
     text-align: center;
-    padding: 0;
-    border-radius: 13px;
+    padding: 0 10px;
+    border-radius: 10px;
     color: #010101;
     font-size: 20px;
     font-family: 'ae_Dimnah';
@@ -112,18 +111,35 @@
     word-wrap: break-word;
 }
 
-.grid-container {
+.authors-grid-container {
     border-top: 4px solid #010101;
 }
 
-.grid-container button:hover {
+.authors-grid-container button:hover {
     outline: 0;
     background-color: orange;
     /* transition: all 1s; */
 }
 
-.grid-container > div {
+.authors-grid-container > div {
     padding-left: 5px;
+}
+
+.authors-status p {
+    background-color: var(--primary-color);
+    text-align: center;
+    cursor: pointer;
+    margin: 0;
+    width: min-content;
+    padding: 0px 5px;
+    border-radius: 10px;
+    color: #010101;
+    font-size: 20px;
+    font-family: 'ae_Dimnah';
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3;
+    word-wrap: break-word;
 }
 
 .nav-menu {
@@ -136,7 +152,7 @@
     word-wrap: break-word;
 }
 
-.grid-container-data {
+.authors-grid-container-data {
     cursor: pointer;
     color: black;
     font-size: 14px;
@@ -147,12 +163,27 @@
     word-wrap: break-word;
 }
 
+/* Add Author Card */
+
+.add-authors-card {
+    width: 434px;
+    height: 216px;
+    /* background-color: var(--primary-color); */
+    border-radius: 10px;
+    color: white;
+    background-color: linear-gradient(to left, #007E94 60%, #E2E3EA 40%);
+}
+
+.add-authors-card .card-top {
+    height: 30%;
+}
+
 
 @media (max-width: 1200px) {
     /* .categor-menu {
         width: 100%;
     } */
-    .menu-items {
+    .authors-menu-items {
         width: 1000px;
     }
 }

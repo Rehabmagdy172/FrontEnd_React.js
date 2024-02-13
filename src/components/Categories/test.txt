@@ -1,0 +1,109 @@
+<div className=" categor-overflow-x-auto">
+                <div className="categor-menu-items">
+                  <div className=' d-flex align-items-center w-100 grid-container p-2'>
+                    <div className="col-2 nav-menu">Name</div>
+                      <div className="col-2 nav-menu mx-3">Status</div>
+                      <div className="col-3 nav-menu">Created on</div>
+                      <div className="col-3 nav-menu">last  updated on</div>
+                      <div className="col-2 nav-menu d-flex">
+                        <button className="btn">Action</button>
+                      </div>
+                    </div>
+    
+                    <div className=' d-flex align-items-center w-100 grid-container grid-container-data p-2'>
+                      <div className="col-2">adventure</div>
+                      <div className="col-2">
+                        <button className="btn text-center">Available</button>
+                      </div>
+                      <div className="col-3">9/25/2022 10:32:49 pm</div>
+                      <div className="col-3"></div>
+                      <div className="col-2 d-flex justify-content-end">
+                      <button className="btn">Action</button>
+                      </div>
+                    </div>
+    
+                    <div className=' d-flex align-items-center w-100 grid-container grid-container-data p-2'>
+                      <div className="col-2">affairs</div>
+                      <div className="col-2">
+                        <button className="btn text-center">Available</button>
+                      </div>
+                      <div className="col-3">9/25/2022 10:32:49 pm</div>
+                      <div className="col-3"></div>
+                      <div className="col-2 d-flex justify-content-end">
+                      <button className="btn">Action</button>
+                      </div>
+                    </div>
+    
+                    <div className=' d-flex align-items-center w-100 grid-container grid-container-data p-2'>
+                      <div className="col-2">arts</div>
+                      <div className="col-2">
+                        <button className="btn text-center">Available</button>
+                      </div>
+                      <div className="col-3">9/25/2022 10:32:49 pm</div>
+                      <div className="col-3"></div>
+                      <div className="col-2 d-flex justify-content-end">
+                      <button className="btn">Action</button>
+                      </div>
+                    </div>
+    
+                    <div className=' d-flex align-items-center w-100 grid-container grid-container-data p-2'>
+                      <div className="col-2">body</div>
+                      <div className="col-2">
+                        <button className="btn text-center">Available</button>
+                      </div>
+                      <div className="col-3">9/25/2022 10:32:49 pm</div>
+                      <div className="col-3"></div>
+                      <div className="col-2 d-flex justify-content-end">
+                      <button className="btn">Action</button>
+                      </div>
+                    </div>
+    
+                    <div className=' d-flex align-items-center w-100 grid-container grid-container-data p-2'>
+                      <div className="col-2">business</div>
+                      <div className="col-2">
+                        <button className="btn text-center">Available</button>
+                      </div>
+                      <div className="col-3">9/25/2022 10:32:49 pm</div>
+                      <div className="col-3"></div>
+                      <div className="col-2 d-flex justify-content-end">
+                      <button className="btn">Action</button>
+                      </div>
+                    </div>
+    
+                    <div className=' d-flex align-items-center w-100 grid-container grid-container-data p-2'>
+                      <div className="col-2">combat stories</div>
+                      <div className="col-2">
+                        <button className="btn text-center">Available</button>
+                      </div>
+                      <div className="col-3">9/25/2022 10:32:49 pm</div>
+                      <div className="col-3"></div>
+                      <div className="col-2 d-flex justify-content-end">
+                      <button className="btn">Action</button>
+                      </div>
+                    </div>
+    
+                    <div className=' d-flex align-items-center w-100 grid-container grid-container-data p-2'>
+                      <div className="col-2">crime</div>
+                      <div className="col-2">
+                        <button className="btn text-center">Available</button>
+                      </div>
+                      <div className="col-3">9/25/2022 10:32:49 pm</div>
+                      <div className="col-3"></div>
+                      <div className="col-2 d-flex justify-content-end">
+                      <button className="btn">Action</button>
+                      </div>
+                    </div>
+    
+                    <div className=' d-flex align-items-center w-100 grid-container grid-container-data p-2'>
+                      <div className="col-2">current</div>
+                      <div className="col-2">
+                        <button className="btn text-center">Available</button>
+                      </div>
+                      <div className="col-3">9/25/2022 10:32:49 pm</div>
+                      <div className="col-3"></div>
+                      <div className="col-2 d-flex justify-content-end">
+                      <button className="btn">Action</button>
+                      </div>
+                    </div>
+                </div>
+              </div>

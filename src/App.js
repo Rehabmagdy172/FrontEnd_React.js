@@ -7,22 +7,24 @@ import Book from './components/Books/Book';
 import BookAdd from './components/Books/BookAdd';
 import DisplayImage from './components/Books/UploadImage';
 import DetailsCopies from './components/Books/DetailsCopies';
+import AppSameh from './AppSameh';
 
 
 function App() {
   return (
-    <div className="App">
+    <>
+    <AppSameh/>
       {/* <DisplayImage/> */}
       {/* <Dashboard/> */}
-      <Routes>
+      {/* <Routes>
         <Route path='dashboard' element={<Dashboard/>}/>
         <Route path='authors' element={<Authors/>} />
         <Route path='categories' element={<Categories/>} />
         <Route path='book' element={<Book/>} />
         <Route path='bookadd' element={<BookAdd/>} />
         <Route path='detailscopies' element={<DetailsCopies/>} />
-      </Routes>
-    </div>
+      </Routes> */}
+    </>
   );
 }
 
