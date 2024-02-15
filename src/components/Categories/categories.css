@@ -27,8 +27,7 @@
     font-family: 'Roboto';
     font-weight: 600;
     text-transform: uppercase;
-    letter-spacing: 3;
-    word-wrap: break-word;
+    transition: all 1s ease;
 }
 
 .add-categories button:hover {
@@ -87,6 +86,7 @@
     text-transform: uppercase;
     letter-spacing: 3;
     word-wrap: break-word;
+    transition: all 1s ease;
 }
 
 .categories-menu-search button:hover {
@@ -107,8 +107,7 @@
     font-family: 'ae_Dimnah';
     font-weight: 400;
     text-transform: uppercase;
-    letter-spacing: 3;
-    word-wrap: break-word;
+    transition: all 0.6s ease;
 }
 
 .categories-menu .categories-grid-container {
@@ -164,6 +163,116 @@
 }
 
 
+/* Add Categorie Card */
+
+.add-categories-card {
+    width: 434px;
+    height: 216px;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 999999999999;
+    top: -400px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    transition: all 1s ease;
+}
+
+.add-categories-card .card-top {
+    height: 30%;
+    background-color: var(--primary-color);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.add-categories-card .card-top p {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.add-categories-card .card-top i {
+    color: #000000;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.add-categories-card .card-top i:hover {
+    color:firebrick;
+}
+
+.add-categories-card .div-form {
+    height: 70%;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.add-categories-card .form-input {
+    width: 100%;
+    height: 100px;
+    /* justify-content: space-around; */
+}
+
+.add-categories-card .input-border {
+    border-top: 1px solid #dbdbdbdd;
+}
+
+.add-categories-card .form-input input {
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    background-color: #E2E3EA;
+    padding: 10px ; 
+    border: none;
+}
+
+.add-categories-card .form-button .button-close {
+    background-color: #929EA0;
+    width: 80px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    line-height: 23px;
+    text-transform: uppercase;
+    margin-right: 10px;
+    transition: all 0.8s ease;
+}
+
+.add-categories-card .form-button .button-close:hover {
+    background-color:firebrick;
+    color: #000000;
+}
+
+.add-categories-card .form-button .button-save {
+    background-color: var(--primary-color);
+    width: 80px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    line-height: 23px;
+    text-transform: uppercase;
+    transition: all 0.8s ease;
+}
+
+.add-categories-card .form-button .button-save:hover {
+    background-color: orange;
+    outline: none;
+    color: #000000;
+}
+
+
+
 @media (max-width: 1200px) {
     /* .categories-menu {
         width: 100%;
@@ -172,3 +281,10 @@
         width: 1000px;
     }
 }
+
+@media (max-width: 720px) {
+    .add-categories-card {
+        display: none;
+    }
+}
+

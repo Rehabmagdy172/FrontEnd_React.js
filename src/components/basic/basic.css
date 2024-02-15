@@ -46,6 +46,7 @@
     background-color: #FBFBFB;
     border-radius: 52px;
     padding: 1px 5px;
+    cursor: pointer;
 }
 
 .basic-header-profile-search input {
@@ -74,7 +75,7 @@
 
     .basic-header-profile {
         position: absolute;
-        top: 35px;
+        top: -70px;
         right: 20px;
         z-index: 99999999;
     }
@@ -100,7 +101,7 @@
 @media (max-width: 720px) {
 
     .basic-header-profile {
-        top: 95px;
+        top: -58px;
         right: 10px;
         z-index: 99;
     }

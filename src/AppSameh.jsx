@@ -8,6 +8,7 @@ import Categories from './components/Categories/Categories'
 import Book from './components/Books/Book'
 import BookAdd from './components/Books/BookAdd'
 import DetailsCopies from './components/Books/DetailsCopies'
+import FindBook from './components/Books/FindBook'
 
 export default function AppSameh() {
   return (
@@ -27,6 +28,7 @@ export default function AppSameh() {
                         <Route path='book' element={<Book/>} />
                         <Route path='bookadd' element={<BookAdd/>} />
                         <Route path='detailscopies' element={<DetailsCopies/>} />
+                        <Route path='find-book' element={<FindBook/>} />
                     </Routes>
 
                 </div>

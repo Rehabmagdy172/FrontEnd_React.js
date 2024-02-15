@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import search from '../../images/Icons/search.svg'
 import './authors.css'
 // import '../basic/basic.css'
@@ -6,7 +6,8 @@ import Basic from '../basic/Basic';
 
 export default function Authors() {
 
-    const component ="Authors";
+  const [toggle, setToggle] = useState(false);
+  const component ="Authors";
 
   return (
   <>
@@ -14,18 +15,27 @@ export default function Authors() {
     
   <div className="add-authors px-3 d-flex align-items-center justify-content-between">
     <h2>{component}</h2>
-    <button className="btn">ADD</button>
+    <button onClick={() => setToggle(prev => !prev)} className="btn">ADD</button>
   </div>
-    <div className="add-authors-card d-none">
-      <div className="card-top">Add Author</div>
-      <div className="card-input">
-        <input type="text" name="" id="" placeholder='Author' />
-      </div>
-      <div className="card-bottom">
-        <button className="btn">close</button>
-        <button className="btn">save</button>
-      </div>
+  <div style={{top: toggle && "0"}} className="add-authors-card">
+    <div className="card-top d-flex justify-content-between p-3">
+      <p>Add Author</p>
+      <i onClick={() => setToggle(prev => !prev)} className="bi bi-x-lg"></i>
     </div>
+    <div className="div-form px-3">
+      <form className=' bg-white' >
+        <div className="form-input d-flex flex-column justify-content-around py-2">
+          <div className="input-border"></div>
+          <input type="text" name="" id="" placeholder='Author' />
+          <div className="input-border"></div>
+        </div>
+        <div className="form-button d-flex justify-content-end">
+          <button onClick={() => setToggle(prev => !prev)} className="btn button-close ">close</button>
+          <button className="btn button-save">save</button>
+        </div>
+      </form>
+    </div>
+  </div>
     
   <div className="authors-menu py-2 ">
     <div className="authors-menu-search px-2 py-3 d-flex justify-content-between">

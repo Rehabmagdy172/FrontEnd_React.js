@@ -27,8 +27,7 @@
     font-family: 'Roboto';
     font-weight: 600;
     text-transform: uppercase;
-    letter-spacing: 3;
-    word-wrap: break-word;
+    transition: all 1s ease;
 }
 
 .add-authors button:hover {
@@ -85,8 +84,7 @@
     font-family: 'Roboto';
     font-weight: 600;
     text-transform: uppercase;
-    letter-spacing: 3;
-    word-wrap: break-word;
+    transition: all 1s ease;
 }
 
 .authors-menu-search button:hover {
@@ -106,9 +104,8 @@
     font-size: 20px;
     font-family: 'ae_Dimnah';
     font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 3;
-    word-wrap: break-word;
+    text-transform: uppercase; 
+    transition: all 0.6s ease;
 }
 
 .authors-grid-container {
@@ -168,14 +165,107 @@
 .add-authors-card {
     width: 434px;
     height: 216px;
-    /* background-color: var(--primary-color); */
     border-radius: 10px;
-    color: white;
-    background-color: linear-gradient(to left, #007E94 60%, #E2E3EA 40%);
+    position: absolute;
+    z-index: 999999999999;
+    top: -400px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    transition: all 1s ease;
 }
 
 .add-authors-card .card-top {
     height: 30%;
+    background-color: var(--primary-color);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.add-authors-card .card-top p {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.add-authors-card .card-top i {
+    color: #000000;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.add-authors-card .card-top i:hover {
+    color:firebrick;
+}
+
+.add-authors-card .div-form {
+    height: 70%;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.form-input {
+    width: 100%;
+    height: 100px;
+    /* justify-content: space-around; */
+}
+
+.input-border {
+    border-top: 1px solid #dbdbdbdd;
+}
+
+.form-input input {
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    background-color: #E2E3EA;
+    padding: 10px ; 
+    border: none;
+}
+
+.form-button .button-close {
+    background-color: #929EA0;
+    width: 80px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    line-height: 23px;
+    text-transform: uppercase;
+    margin-right: 10px;
+    transition: all 0.8s ease;
+}
+
+.form-button .button-close:hover {
+    background-color:firebrick;
+    color: #000000;
+}
+
+.form-button .button-save {
+    background-color: var(--primary-color);
+    width: 80px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    line-height: 23px;
+    text-transform: uppercase;
+    transition: all 0.8s ease;
+}
+
+.form-button .button-save:hover {
+    background-color: orange;
+    outline: none;
+    color: #000000;
 }
 
 
@@ -185,5 +275,11 @@
     } */
     .authors-menu-items {
         width: 1000px;
+    }
+}
+
+@media (max-width: 720px) {
+    .add-authors-card {
+        display: none;
     }
 }

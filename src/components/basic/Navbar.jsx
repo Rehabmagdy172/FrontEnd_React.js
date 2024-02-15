@@ -60,7 +60,7 @@ export default function Navbar() {
                                 <img className=" px-2 w-25" src={user} />Users</Link>
                         </li>
                         <li className="nav-item py-0">
-                            <Link onClick={() => setToggle(false)} className="nav-link fs-5 fw-medium text-dark" to="#">
+                            <Link onClick={() => setToggle(false)} className="nav-link fs-5 fw-medium text-dark" to="/find-book">
                                 <img className=" px-2 w-25" src={search} />Search</Link>
                         </li>
                     </ul>

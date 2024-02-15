@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import search from '../../images/Icons/search.svg'
 import './categories.css'
 // import '../basic/basic.css'
@@ -6,6 +6,7 @@ import Basic from '../basic/Basic';
 
 export default function Categories() {
 
+  const [toggle, setToggle] = useState(false);
   const component ="Categories";
 
   return (
@@ -14,7 +15,26 @@ export default function Categories() {
     
   <div className="add-categories px-3 d-flex align-items-center justify-content-between">
     <h2>{component}</h2>
-    <button className="btn">ADD</button>
+    <button onClick={() => setToggle(prev => !prev)} className="btn">ADD</button>
+  </div>
+  <div style={{top: toggle && "0"}} className="add-categories-card">
+    <div className="card-top d-flex justify-content-between p-3">
+      <p>Add Categorie</p>
+      <i onClick={() => setToggle(prev => !prev)} className="bi bi-x-lg"></i>
+    </div>
+    <div className="div-form px-3">
+      <form className=' bg-white' >
+        <div className="form-input d-flex flex-column justify-content-around py-2">
+          <div className="input-border"></div>
+          <input type="text" name="" id="" placeholder='Categorie' />
+          <div className="input-border"></div>
+        </div>
+        <div className="form-button d-flex justify-content-end">
+          <button onClick={() => setToggle(prev => !prev)} className="btn button-close ">close</button>
+          <button className="btn button-save">save</button>
+        </div>
+      </form>
+    </div>
   </div>
     
   <div className="categories-menu py-2 ">
